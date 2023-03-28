@@ -1,0 +1,51 @@
+class Student(object):
+
+    def __init__(self,name,groupNumber,age):
+        self.name="Ivan"
+        self.groupNumber="10A"
+        self.age=18
+
+        self.name=name
+        self.groupNumber=groupNumber
+        self.age=age
+
+    def getName(self):
+        print(self.name)
+        return 
+    
+    def getAge(self):
+        print(self.age)
+        return
+    
+    def getGroupNumber(self):
+        print(self.groupNumber)
+        return
+    
+    def setNameAge(self,a,b):
+        self.name = a
+        self.age = b
+        return
+    def setGroupNumber(self,y):
+        self.groupNumber = y
+        return
+    
+if __name__ == "__main__":
+    i = Student("Ibragim","4B", 10)
+    i.getName()
+    i.getAge()
+
+    f = Student("Andrey","9A",16)
+    f.getName()
+    f.getAge()
+
+    g = Student("Sasha","6A",12)
+    g.getName()
+    g.getAge()
+
+    t = Student("Egor","11B",18)
+    t.getName()
+    t.getAge()
+
+    k = Student("Vladimir","10B",17)
+    k.getName()
+    k.getAge()
